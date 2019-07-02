@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<app xmlns="http://www.multiable.com/app">
+	<name>ce01_fps</name>
+	<version>1.0</version>
+	<description>CE01 FPS App</description>
+	<dependences>
+		<dependence id="caw" versions="1.0" />
+		<dependence id="ce01_core" versions="1.0" />
+	</dependences>	
+	<ear>caw_ear</ear>
+	<ejb>ce01_fps_ejb</ejb>	
+</app>

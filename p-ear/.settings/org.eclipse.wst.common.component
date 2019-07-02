@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="caw_ear">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="jsf.war" deploy-path="/" handle="module:/resource/jsf/jsf">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="core_share.jar" deploy-path="/lib" handle="module:/classpath/lib/caw4/caw_ear.ear/lib/core_share.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="core_ejb.jar" deploy-path="/" handle="module:/classpath/lib/caw4/caw_ear.ear/core_ejb.jar">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ce01_core_share.jar" deploy-path="/lib" handle="module:/classpath/lib/core/caw_ear.ear/lib/ce01_core_share.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ce01_core_ejb.jar" deploy-path="/" handle="module:/classpath/lib/core/caw_ear.ear/ce01_core_ejb.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ce01_fps_ejb.jar" deploy-path="/" handle="module:/resource/ce01_fps_ejb/ce01_fps_ejb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ce01_fps_share.jar" deploy-path="/lib" handle="module:/resource/ce01_fps_share/ce01_fps_share">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
