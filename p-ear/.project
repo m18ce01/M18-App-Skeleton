@@ -3,7 +3,6 @@
 	<name>caw_ear</name>
 	<comment></comment>
 	<projects>
-		<project>jsf</project>
 		<project>ce01_ac_ejb</project>
 		<project>ce01_ac_share</project>
 	</projects>
