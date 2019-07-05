@@ -3,8 +3,9 @@
 	<name>caw_ear</name>
 	<comment></comment>
 	<projects>
-		<project>ce01_ac_ejb</project>
-		<project>ce01_ac_share</project>
+		<project>p-jsf</project>
+		<project>p-ejb</project>
+		<project>p-share</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
