@@ -15,7 +15,5 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/p-share"/>
-	<classpathentry kind="lib" path="/caw_ear/lib/ejb"/>
-	<classpathentry kind="lib" path="/caw_ear/lib/share"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
